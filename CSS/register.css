@@ -1,0 +1,125 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* GLOBAL */
+body {
+    max-width: 100%;
+    background-image: url(../photos/premium_photo-1672883552341-eaebc9240719.avif);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+nav>img {
+    border-radius: 15px;
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+/* FORMULAIRE */
+.login {
+    width: 40%;
+    padding: 25px;
+    border: 4px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px white;
+
+}
+
+/* TITRE */
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* LABELS */
+label {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+}
+
+/* BOUTON */
+#button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    background-color: gray;
+    box-shadow: 2px 2px 25px white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+/* TEXTE */
+p {
+    font-size: 1.2em;
+}
+
+span {
+    color: white;
+}
+
+/* ------rsponsive------- */
+
+/* Tablettes */
+@media (max-width: 992px) {
+    .login {
+        width: 60%;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .login {
+        width: 80%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    button {
+        font-size: 0.95rem;
+    }
+}
+
+/* Très petits écrans */
+@media (max-width: 480px) {
+    .login {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}

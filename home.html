@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LeBoncoin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door"></i>
+                            Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="annonce.html"><i class="bi bi-bell"></i> Annonce</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="seDeconnecter.html"><i class="bi bi-power"></i> Se Déconnecter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Immobilier</li>
+            <li class="list-group-item">Véhicule</li>
+            <li class="list-group-item">Maison</li>
+            <li class="list-group-item">Mode</li>
+            <li class="list-group-item">Famille</li>
+            <li class="list-group-item">Electronique</li>
+            <li class="list-group-item">Loisirs</li>
+        </ul>
+
+        <section>
+            <h1 id="msgBienvenue"></h1>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner w-75 h-80 mx-auto rounded-4">
+                    <div class="carousel-item active">
+                        <img src="photos/Ubaldi-la-revolution-de-lelectromenager-1-1-1243256247.png" class="d-block"
+                            alt="Electromenager">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/Groupe_InCA-M8_010.jpg" class="d-block" alt="Voiture">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/R6XIXECAMQIZHIOYVS75DQYZOM.jpg" class="d-block" alt="Maison">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/80567150.jpg" class="d-block" alt="Téléphone">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/Offre-emploi-1200x630.jpg" class="d-block" alt="Offre-emploi">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/Jeux-de-societe-un-marche-en-pleine-expansion-qui-pese-plus-de-300-millions-d-euros-en-France.jpg"
+                            class="d-block" alt="loisirs">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/vendre-ses-vetements-astuces.jpg" class="d-block" alt="Mode">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/famille.jpg" class="d-block" alt="famille">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/canape-convertible-bastille.jpg" class="d-block" alt="meuble">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="annonce">
+            <h1> Liste des annonces</h1>
+            <div class="listAnnonces">
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/Ubaldi-la-revolution-de-lelectromenager-1-1-1243256247.png" class="card-img-top"
+                        alt="canapé">
+                    <div class="card-body">
+                        <h5 class="card-title">Cuisinière</h5>
+                        <p class="card-categorie">Maison</p>
+                        <p class="card-descrition">Vend cuisinière de marque valberg, fonctionne parfaitement. A
+                            tester sur place</p>
+                        <p class="card-prix">100 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/80567150.jpg" class="card-img-top" alt="canapé">
+                    <div class="card-body">
+                        <h5 class="card-title">Iphone 17</h5>
+                        <p class="card-categorie">Electronique</p>
+                        <p class="card-descrition">Vend iphone 17 pro max 256 giga, batterie 90% état: neuf</p>
+                        <p class="card-prix">100 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/velo.jpg" class="card-img-top" alt="velo">
+                    <div class="card-body">
+                        <h5 class="card-title">VTT Nakamura</h5>
+                        <p class="card-categorie">Véhicule</p>
+                        <p class="card-descrition">VTT Marque : Nakamura
+                            Modèle : SUMMIT 920 LTD
+                            Très bon état taille L
+                            Taille de Les roues en 29
+                            Freins hydrauliques
+                            Nombre de vitesse : 9
+                            Modèle en aluminium
+                            Blocage de La Fourche :</p>
+                        <p class="card-prix">350 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/ordinateur.jpg" class="card-img-top" alt="ordinateur">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo Thinkpad T440 i5 4300u 8gb</h5>
+                        <p class="card-categorie">Electronique</p>
+                        <p class="card-descrition">Lenovo Thinkpad T440, i5 4300U et 8 Go de RAM, ssd 60gb.
+                            Sous windows 10 fresh install,
+                            Disposition qwerty UK,
+                            Vendu avec chargeur secteur.
+
+                            Bon état general, envoie possible</p>
+                        <p class="card-prix">120 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/jeux videos.jpg" class="card-img-top" alt="nintendo">
+                    <div class="card-body">
+                        <h5 class="card-title">Nintendo Switch</h5>
+                        <p class="card-categorie">Loisirs</p>
+                        <p class="card-descrition">Vend Console nintendo Switch en très bon état, un peu abîmé au niveau
+                            du joystick gauche.
+                            Avec ça housse ainsi qu'une carte sd de 125 go.
+                        </p>
+                        <p class="card-prix">150 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/grille-pain.jpg" class="card-img-top" alt="grille-pain">
+                    <div class="card-body">
+                        <h5 class="card-title">Grille-pain Philips HD2590 blanc</h5>
+                        <p class="card-categorie">Loisirs</p>
+                        <p class="card-descrition">Je vends un grille-pain Philips HD2590 blanc de la gamme Daily
+                            Collection,
+                            en très bon état et parfaitement fonctionnel.
+                        </p>
+                        <p class="card-prix">17 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/local commercial.jpg" class="card-img-top" alt="local commercial">
+                    <div class="card-body">
+                        <h5 class="card-title">Local commercial 553 m²</h5>
+                        <p class="card-categorie">Immobilier</p>
+                        <p class="card-descrition">A vendre local commercial d'environ 553,7 m² au RDC situé à
+                            Saint-Martin-Le-Vinoux. Ce bien à la vente vous est présenté par PROLOCAUX.
+
+                            Prestations - équipements : Local Commercial d'environ 553,7 m² au RDC
+                            Un espace de vente,
+                            Un bureau accueil,
+                            Un bureau individuel
+                            3 sanitaires
+                        </p>
+                        <p class="card-prix">75000 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/le lego.jpg" class="card-img-top" alt="lego">
+                    <div class="card-body">
+                        <h5 class="card-title">Lot de lego</h5>
+                        <p class="card-categorie">Loisirs</p>
+                        <p class="card-descrition">lot de lego environ 5 kg
+                            voir les photos
+                        </p>
+                        <p class="card-prix">68 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/iphone 13.jpg" class="card-img-top" alt="iphone 13">
+                    <div class="card-body">
+                        <h5 class="card-title">IPhone 14 Pro et iPhone 13 Pro avec facture</h5>
+                        <p class="card-categorie">Electronique</p>
+                        <p class="card-descrition">iPhone 14 Pro & iPhone 13 Pro (séparément)
+
+                            * iPhone 14 Pro : En bon état et sa facture et accessoires.
+                            * iPhone 13 Pro : En bon état et sa facture et accessoires.
+
+                            Les deux téléphones sont vendus séparément.
+                            Pour toute question ou information complémentaire, n'hésitez pas à me contacter directement.
+                        </p>
+                        <p class="card-prix">350 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/BMW.jpg" class="card-img-top" alt="BMW">
+                    <div class="card-body">
+                        <h5 class="card-title">Bmw SERIE 5 (G30) 540 G30 LCI Mild Hybrid Steptronic LUXURY</h5>
+                        <p class="card-categorie">Véhicules</p>
+                        <p class="card-descrition">Bmw SERIE 5 (G30) 540 G30 LCI Mild Hybrid Steptronic LUXURY,
+                            (Berline), NOIR, 17cv, 4 portes, mise en circulation le 29-06-2021, garantie 12 mois (12
+                            MOIS).
+
+                            5 places, couleur intérieur : NOIR, longueur : 4,96 mètres,
+                            boîte de vitesse : automatique
+                        </p>
+                        <p class="card-prix">39 990 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/Pousette.jpg" class="card-img-top" alt="Pousette">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensemble poussette cybex</h5>
+                        <p class="card-categorie">Famille</p>
+                        <p class="card-descrition">Je vends cet ensemble poussette de la marque Cybex, comprenant la
+                            poussette balios s, le cosy cloud z et la base Isofix.
+                            - Type de produit : Poussette trio
+                            - Marque : Cybex
+                            - Composition du lot : 1 châssis, 1 cosy, 1 base Isofix
+                            - Couleur : Gris / Anthracite
+                            - Système de fixation : Isofix avec jambe de force
+                            - Fonctionnalités : Pliage compact, Roues tout-terrain
+                            Voir descriptif en photo pour la poussette balios s.
+                            N'hésitez pas à me contacter pour plus d'informations ou de photos.
+                        </p>
+                        <p class="card-prix">350 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/robe.jpg" class="card-img-top" alt="robe">
+                    <div class="card-body">
+                        <h5 class="card-title">Robe Polo Karl Lagerfeld original</h5>
+                        <p class="card-categorie">Mode</p>
+                        <p class="card-descrition">Magnifique et original robe polo de la marque de luxe
+                            Karl Lagerfeld pour femme
+                        </p>
+                        <p class="card-prix">200 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/robe.jpg" class="card-img-top" alt="robe">
+                    <div class="card-body">
+                        <h5 class="card-title">Robe Polo Karl Lagerfeld original</h5>
+                        <p class="card-categorie">Mode</p>
+                        <p class="card-descrition">Magnifique et original robe polo de la marque de luxe
+                            Karl Lagerfeld pour femme
+                        </p>
+                        <p class="card-prix">200 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/frigo.jpg" class="card-img-top" alt="frigo">
+                    <div class="card-body">
+                        <h5 class="card-title">Frigo américain</h5>
+                        <p class="card-categorie">Maison</p>
+                        <p class="card-descrition">Bonjour je me sépare de ce superbe frigo américain car
+                            il a une elisse de casser un bruit fort ce fait souvent pas le temp de m'en occuper
+                            pour piece ou a réparer je ne suis pas véhiculée prevoire des bras
+                            je suis au premier urgent cause déménagement je répond
+                            pas aux masquée ni au mail seulement par téléphone hésiter pas pour toute demande
+                        </p>
+                        <p class="card-prix">60 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/canapé 2.jpg" class="card-img-top" alt="canapé 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Canapé CARLOS POUF d'Angle Modulable Personnalisable</h5>
+                        <p class="card-categorie">Maison</p>
+                        <p class="card-descrition">- Pieds en métal chromé
+                            - Densité Mousse 30kg/m3
+                            - Dimensions : 265cm x 330cm
+                            - Têtière réglable manuellement
+                            - 4 Poufs inclus dans les accoudoir (voir photo)
+                        </p>
+                        <p class="card-prix">1090 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/appartement.jpg" class="card-img-top" alt="appartement">
+                    <div class="card-body">
+                        <h5 class="card-title">Appartement meublé</h5>
+                        <p class="card-categorie">Immobilier</p>
+                        <p class="card-descrition">Location appartement meublé de 40 m2 en plein coeur du centre ville:
+
+                            Grande pièce à vivre de ouverte sur une rue piétonne avec cuisine aménagée :
+                            Une chambres avec avec douche, lavabo et lit double .
+                            Appartement au 4ème étage sans ascenseur dans une petite copropriété de 5 logements.
+                            Résidence très calme.
+                        <p class="card-prix">650 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/vêtement bébé garçon.jpg" class="card-img-top" alt="vêtement bebe">
+                    <div class="card-body">
+                        <h5 class="card-title">Gros lot de vêtements bébé garçon 6 mois été</h5>
+                        <p class="card-categorie">Famille</p>
+                        <p class="card-descrition">Vends un gros lot de vêtements bébé garçon 6 mois spécial été
+                            comprenant :
+                            2 bodys manches courtes
+                            7 Tee-shirt manches courtes
+                            2 salopettes
+                            5 Tenues complètes salopette tee-shirt ou short tee-shirt
+                            9 Pantalons légers
+                            6 Short dont 1 marque ralph lauren
+                            1 maillot de bain
+                            1 sortie de bain ou plage
+                            4 Casquettes et 1 chapeau
+                        <p class="card-prix">80 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/jouets-voiture.jpg" class="card-img-top" alt="jouets-voiture">
+                    <div class="card-body">
+                        <h5 class="card-title">3 Voitures 1/18 eme</h5>
+                        <p class="card-categorie">Loisirs</p>
+                        <p class="card-descrition">Un lot de trois voitures miniature dans l’état.
+                            remise en main propre
+                        <p class="card-prix">10 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/horloge.jpg" class="card-img-top" alt="horloge">
+                    <div class="card-body">
+                        <h5 class="card-title">Horloge</h5>
+                        <p class="card-categorie">Maison</p>
+                        <p class="card-descrition">Je vends cette horloge murale de style industriel en acier noir.
+                            - Type de produit : Horloge murale
+                            - Style : Industriel
+                            - Matière : Acier
+                            - Couleur : Noir
+                            État neuf
+                            N'hésitez pas à me contacter pour plus d'informations ou de photos.
+                        <p class="card-prix">10 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/horloge.jpg" class="card-img-top" alt="horloge">
+                    <div class="card-body">
+                        <h5 class="card-title">Horloge</h5>
+                        <p class="card-categorie">Maison</p>
+                        <p class="card-descrition">Je vends cette horloge murale de style industriel en acier noir.
+                            - Type de produit : Horloge murale
+                            - Style : Industriel
+                            - Matière : Acier
+                            - Couleur : Noir
+                            État neuf
+                            N'hésitez pas à me contacter pour plus d'informations ou de photos.
+                        <p class="card-prix">10 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/Mercedes.jpg" class="card-img-top" alt="Mercedes">
+                    <div class="card-body">
+                        <h5 class="card-title">Mercedes Classe GLA 200 163ch Progressive Line 7G-DCT 1RE MAIN</h5>
+                        <p class="card-categorie">Véhicule</p>
+                        <p class="card-descrition">Mercedes Classe GLA 200 163ch Progressive Line 7G-DCT 1RE MAIN
+                            crossover, suv, bleu, 9 cv, 5 portes, première mise en circulation le 01/12/2022, garantie 3
+                            mois.
+
+                            Mercedes Classe GLA 200 163ch Progressive Line 7G-DCT 1RE MAIN, Bleu, 4x2, SUV, date de mise
+                            en circulation (b) 01/12/2022, Nombre de places 5
+
+                        <p class="card-prix">31 990 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/nike.jpg" class="card-img-top" alt="nike">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike P-6000</h5>
+                        <p class="card-categorie">Mode</p>
+                        <p class="card-descrition">Nike P-6000
+                            Taille 42.5
+                            Bon état.
+                            Modèle de la première heure.
+                            N’a pas été rééditée.
+                        </p>
+                        <p class="card-prix">95 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/armoire.jpg" class="card-img-top" alt="armoire">
+                    <div class="card-body">
+                        <h5 class="card-title">Armoire de toilette haute blanche en melamine</h5>
+                        <p class="card-categorie">Maison</p>
+                        <p class="card-descrition">Armoire de toilette haute en bois mélaminé blanc - 3 portes dont une
+                            (de haut en bas) avec miroir - 2 tiroirs - poignées chromées. Etagères intérieures blanches
+                            - porte du bas avec panier amovible pour linge sale (ou autre).
+
+                            Dimensions : H. 1,62 m - l. 0,70 m.
+                        </p>
+                        <p class="card-prix">39 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/tablette.jpg" class="card-img-top" alt="tablette">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple iPad Pro 11 M4 Wifi + Cellular 1TB</h5>
+                        <p class="card-categorie">Electronique</p>
+                        <p class="card-descrition">Tablette Apple
+                            iPad Pro 11 pouces (M4) Wifi+Cellular 1TB
+                            Coloris Noir Sidéral
+                            Vendue complète dans sa boîte d'origine.
+                            Achetée directement chez Apple le 1er Novembre 2024
+                            Garantie Apple Care +
+                        </p>
+                        <p class="card-prix">1500 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/puzzle.jpg" class="card-img-top" alt="puzzle">
+                    <div class="card-body">
+                        <h5 class="card-title">Puzzle Djeco observation 100 pièces pirates</h5>
+                        <p class="card-categorie">Loisirs</p>
+                        <p class="card-descrition">Excellent puzzle de la marque Djeco
+                            Une fois fait, le puzzle se transforme en jeu d'observation
+
+                            Le puzzle est complet et les pièces sont en très bon état
+                            Seul le poster est un peu abîmé par endroit.
+                        </p>
+                        <p class="card-prix">4 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/terrain.jpg" class="card-img-top" alt="terrain">
+                    <div class="card-body">
+                        <h5 class="card-title">Terrain 17980 m² Saint-Paul-en-Forêt</h5>
+                        <p class="card-categorie">Immobilier</p>
+                        <p class="card-descrition">Saint-Paul-En-Forêt - Terrain en zone agricole d'une superficie de
+                            1,8 Ha avec accès véhicules.
+
+                            Surface : 17980 m²
+
+                            Consommation énergie primaire : 0 kWh/m²/an
+                            Consommation énergie finale : Non communiqué
+                        </p>
+                        <p class="card-prix">29500 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/telphone samsung.jpg" class="card-img-top" alt="telephone">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy Z Fold 6 Argent – 256 Go</h5>
+                        <p class="card-categorie">Electronique</p>
+                        <p class="card-descrition">Bonjour,
+                            Je vends mon Samsung Galaxy Z Fold 6 couleur argent, version 256 Go, acheté il y a un an et
+                            entretenu uniquement par Samsung.
+
+                            L’appareil est en état impeccable, proche du neuf.
+
+                        </p>
+                        <p class="card-prix">800 $</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="photos/four.jpg" class="card-img-top" alt="four">
+                    <div class="card-body">
+                        <h5 class="card-title">Four rosière</h5>
+                        <p class="card-categorie">Electronique</p>
+                        <p class="card-descrition">Bonjour,
+                            Vend four de marque rosières en très bonne état .
+                            À venir chercher sur place.
+
+                        </p>
+                        <p class="card-prix">60 $</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="JS/home.js"></script>
+</body>
+
+</html>

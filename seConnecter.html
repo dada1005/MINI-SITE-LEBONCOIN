@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/seconnecter.css">
+</head>
+
+<body>
+    <nav class="navbar">
+       <img src="photos/download (2).png" alt="logo" width="160" height="60" >
+    </nav>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-12 mb-4 blocGauche">
+                <h1>
+                    Bienvenue sur le site leboncoin <br>
+                    Créer un compte et vendre sur leboncoin
+                </h1>
+
+                <p>
+                    Avec leboncoin, trouvez la bonne affaire, réalisez la bonne vente pour votre immobilier,
+                    véhicule, maison, mode, électroménager et meuble...
+                </p>
+
+                <p>Téléchargez l'application sur :</p>
+                <a href="https://play.google.com" target="_blank">
+                    <img src="photos/google store.jfif" alt="google play store" width="50">
+                </a>
+                <a href="https://apps.apple.com/fr/app" target="_blank">
+                    <img src="photos/app-store-logo.webp" alt="app store" width="80">
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 blocDroit">
+                <h1><i class="bi bi-person"></i> Login</h1>
+
+                <div class="mb-3">
+                    <label class="form-label">Saisissez votre email</label>
+                    <input type="email" class="form-control" id="idEmail" placeholder="name@example.com">
+                    <span id="msgEmail"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Saisissez votre mot de passe</label>
+                    <input type="password" class="form-control" id="idPassword" placeholder="********">
+                    <span id="msgPassword"></span>
+                </div>
+
+                <div class="mb-3" id="button">
+                    <button type="submit" id="btnConnexion" class="button w-80">Me connecter</button>
+                    <br>
+                    <span id="msgConnexion"></span>
+                    <p class="mt-3">Vous n'avez pas encore votre compte ?</p>
+                    <a href="register.html" class="button w-80">Créer un compte</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="JS/seConnecter.js"></script>
+
+</body>
+</html>

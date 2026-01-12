@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+
+}
+
+.nav {
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    color: orangered;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    margin: 10px;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+.list-group{
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+    color: orangered;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.carousel-item > img {
+    width: 30%;
+    height: 30%;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.annonce {
+    margin: 5px;
+}
+
+.listAnnonces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    max-width: 100%;
+}
+
+.card > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#divAnnonces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}

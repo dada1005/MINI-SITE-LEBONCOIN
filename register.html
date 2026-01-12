@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/register.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="photos/download (2).png" alt="logo" width="160" height="60" >
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="login">
+                <h2><i class="bi bi-people"></i>Register</h2>
+                <div class="mb-3">
+                    <label class="form-label">Nom d'utilisateur*</label>
+                    <input type="text" class="form-control" id="idNom" placeholder="nom d'utilisateur">
+                    <span id="msgUser"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Numéro de téléphone</label>
+                    <input type="tel" class="form-control" id="idTel" placeholder="numero de telephone">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email*</label>
+                    <input type="email" class="form-control" id="idEmail" placeholder="name@example.com">
+                    <span id="msgEmail"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Mot de passe*</label>
+                    <input type="password" class="form-control" id="idPassword" placeholder="********">
+                    <span id="msgPassword"></span>
+                </div>
+                <div class="mb-3" id="button">
+                    <button type="button" class="btn btn-secondary" id="btnValider">créer votre compte</button>
+                    <div id="msgInscription"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="JS/register.js"></script>
+
+</body>
+</html>
