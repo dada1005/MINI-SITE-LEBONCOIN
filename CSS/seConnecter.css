@@ -32,13 +32,18 @@ img{
     margin-right: 10px;
      border-radius: 20px;
 }
+p {
+    font-size: 1.2rem;
+    color: white;
+    margin: 10px;
+}
 
 /* BLOC DROIT */
 .blocDroit {
     margin: 50px auto;
     border: 4px solid white;
-    width: 40%;
-    padding: 40;
+    width: 30%;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 25px white;
     background-color: rgb(154, 97, 97);
@@ -66,14 +71,13 @@ input {
 }
 
 #button {
-    margin: 10px;
     text-align: center;
 }
 
-#button a {
+.button  a {
     color: white;
-    margin: 10px;
 }
+
 
 .button {
     background-color: gray;
@@ -84,21 +88,17 @@ input {
     padding: 10px;
 }
 
-p {
-    font-size: 1.3rem;
-    color: white;
-    margin: 10px;
-}
+
 .blocDroit p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: white;
-    margin-top: 10px;
 }
 
 span {
     color: white;
-    margin: 3px;
+    margin: 10px;
 }
+
 
 /* --- RESPONSIVE --- */
 

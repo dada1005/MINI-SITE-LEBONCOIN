@@ -49,7 +49,7 @@
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Titre</label>
                     <input type="text" class="form-control" id="idTitre" rows="3" placeholder="titre">
-                    <span id="msgTitre"></span>
+                    <span id="msgTitre" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Type d'annonces</label>
@@ -57,37 +57,40 @@
                         <option>Offre</option>
                         <option>Demande</option>
                     </select>
+                    <span id="msgType" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Catégorie</label>
                     <select class="form-select" aria-label="Default select example" id="idCategorie">
                         <option>Immobilier</option>
                         <option>Véhicule</option>
-                        <option>Emploi</option>
+                        <option>Maison</option>
                         <option>Mode</option>
                         <option>Famille</option>
                         <option>Electronique</option>
                         <option>Loisir</option>
                     </select>
+                    <span id="msgCategorie" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Ajout d'images</label>
                     <input type="file" class="form-control" id="idImage" rows="3" placeholder="png/jpg">
                     <img id="idPhoto" class="img-fluid mt-3" style="min-width: 250px; display:none;">
-                    <span id="msgImage"></span>
+                    <span id="msgImage" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Description</label>
-                    <span id="error" class="text-danger"></span>
+                    <span id="msgDescription" class="text-danger"></span>
                     <textarea class="form-control" id="idDescription" rows="3"
                         placeholder="ajouter une description"></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Prix</label>
                     <input type="number" class="form-control" id="idPrix" rows="3" placeholder=" prix ($)">
-                    <span id="msgPrix"></span>
+                    <span id="msgPrix" class="text-danger"></span>
                 </div>
                 <button type="button" class="btn btn-secondary" id="idAjouter">Ajouter</button>
+                <br>
                 <span id="msgAnnonce"></span>
             </div>
         </div>
