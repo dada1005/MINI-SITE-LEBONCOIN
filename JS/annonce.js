@@ -43,7 +43,8 @@ btnAjout.addEventListener("click", function () {
 
         msgAnnonce.innerText = "Veuillez remplir tous les champs";
         msgImage.innerText = "ajouter une image";
-        msgAnnonce.style.color = "red"; return;
+        msgAnnonce.style.color = "red";
+        return;
     }
     msgAnnonce.innerText = "";
     msgImage.innerText = "";
@@ -81,6 +82,9 @@ btnAjout.addEventListener("click", function () {
         </div>
     `;
 
+    msgAnnonce.innerText = "Annonce ajoutée avec succès!";
+        msgAnnonce.style.color = "green";
+        return;
     // vider les champs
     idTitre.value = "";
     idType.value = "";
